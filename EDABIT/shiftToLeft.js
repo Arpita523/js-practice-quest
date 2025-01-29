@@ -5,7 +5,7 @@ function shiftToLeft(x, y) {
     if (y === 0) {
       return x
     } else {
-      return shiftToLeft(X * 2, Y - 1)
+      return shiftToLeft(x * 2, y - 1)
     }
   }
 }

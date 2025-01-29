@@ -7,7 +7,7 @@ function mostExpensive(obj) {
   //   console.log(keyObj)
   let max = Math.max(...valueObj)
   console.log(max)
-  return `The most expensive one is the  ${keyObj[valueObj.indexOf(max)]}`
+  return `The most expensive one is the ${keyObj[valueObj.indexOf(max)]}`
 }
 console.log(
   mostExpensive({
