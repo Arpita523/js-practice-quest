@@ -1,7 +1,7 @@
 // Burglary Series (15): Number of Occurrences
 
 function countNumberOfOccurrences(obj) {
-v  console.log(values)
+  console.log(values)
 
   let count = {}
   for (let i = 0; i < values.length; i++) {
