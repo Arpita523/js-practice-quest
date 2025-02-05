@@ -1,14 +1,13 @@
 // Recursion: Left Shift by Powers of Two
 
 function shiftToLeft(x, y) {
-  function shiftToLeft(x, y) {
-    if (y === 0) {
-      return x
-    } else {
-      return shiftToLeft(x * 2, y - 1)
-    }
+  if (y === 0) {
+    return x
+  } else {
+    return shiftToLeft(x * 2, y - 1)
   }
 }
+
 console.log(shiftToLeft(5, 2))
 console.log(shiftToLeft(10, 3))
 console.log(shiftToLeft(-32, 2))
