@@ -3,7 +3,7 @@
 function getBudgets(arr) {
   let sum = arr.reduce((curr, next) => curr + next.budget, 0)
   console.log(sum)
-  return sum
+  return sum 
 }
 console.log(
   getBudgets([
